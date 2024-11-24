@@ -15,8 +15,6 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/oppo/r7plus
-
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
