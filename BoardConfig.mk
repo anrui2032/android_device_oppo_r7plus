@@ -50,5 +50,8 @@ TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Vendor security patch level
+VENDOR_SECURITY_PATCH := 2015-12-01
+
 # Inherit from proprietary files
 include vendor/oppo/r7plus/BoardConfigVendor.mk
