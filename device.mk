@@ -75,7 +75,7 @@ PRODUCT_PACKAGES += \
     fingerprint.msm8916
 
 PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service
+    android.hardware.biometrics.fingerprint@2.1-service.r7plus
 
 # Input configuration
 PRODUCT_COPY_FILES += \
